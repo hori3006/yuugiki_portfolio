@@ -4,6 +4,7 @@ import { vanillaExtractPlugin } from '@vanilla-extract/vite-plugin'
 
 // https://vite.dev/config/
 export default defineConfig({
+    base: "/yuugiki_portfolio/",
   plugins: [react(),
     vanillaExtractPlugin ()
   ],
